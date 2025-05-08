@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+</head>
+<body>
+    {% extends "base.html" %}
+    {% block title %}Dashboard{% endblock %}
+    {% block content %}
+
+    <h1>Welcome, {{ current_user.email }}</h1>
+
+    <hr>
+
+    <!-- Section: Manage Notifications -->
+    <h3>Manage Notification Settings</h3>
+    <form method="POST" action="{{ url_for('update_notifications') }}">
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" name="notify_email" id="notify_email" {% if current_user.notify_email %}checked{% endif %}>
+            <label class="form-check-label" for="notify_email">Email Notifications</label>
+        </div>
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" name="notify_telegram" id="notify_telegram" {% if current_user.notify_telegram %}checked{% endif %}>
+            <label class="form-check-label" for="notify_telegram">Telegram Notifications</label>
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Update</button>
+    </form>
+
+    <hr>
+
+    <!-- Section: Leak History -->
+    <h3>Your Leak Check History</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Type</th>
+                <th>Value</th>
+                <th>Source</th>
+                <th>Status (ML)</th>
+                <th>Timestamp</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for leak in leaks %}
+            <tr>
+                <td>{{ loop.index }}</td>
+                <td>{{ leak[1] }}</td>
+                <td>{{ leak[2] }}</td>
+                <td>{{ leak[3] }}</td>
+                <td>
+                    {% if leak[5] %}
+                        {{ leak[5] }}
+                    {% else %}
+                        N/A
+                    {% endif %}
+                </td>
+                <td>{{ leak[4] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    
+
+    <hr>
+
+    <!-- Section: Add Credential -->
+    <h3>Check Email for Leak & Add to Monitoring</h3>
+    <form method="POST" action="{{ url_for('check_email') }}">
+        <div class="mb-3">
+            <input type="email" class="form-control" name="credential" placeholder="Enter email to check & monitor" required>
+        </div>
+        <button type="submit" class="btn btn-success">Check & Monitor</button>
+    </form>
+
+    {% endblock %}
+
+    <a href="{{ url_for('logout') }}">Logout</a>
+</body>
+</html>

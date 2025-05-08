@@ -1,18 +1,52 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dark Web Credential Checker</title>
-    <link rel="stylesheet" href="/static/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body>
-    <img src="/static/logo_6.png" alt="Dark Web Monitor" width="200">
-    <h1>Check if your email has been leaked</h1>
-    <form action="/result" method="POST">
-        <input type="email" name="email" required>
-        <button type="submit">Check</button>
-    </form>
-</body>
-</html>
+{% extends "base.html" %}
+{% block title %}Welcome - Dark Web Leak Monitor{% endblock %}
+
+{% block content %}
+<div class="text-center mt-5">
+    <img src="{{ url_for('static', filename='logo_6.png') }}" alt="Dark Web Monitor Logo" width="300" class="mb-4">
+
+    <h1 class="mb-4">Welcome to Dark Web Leak Monitor</h1>
+    <p class="lead mb-4">
+        Stay protected by monitoring your credentials for dark web leaks.<br>
+        Register to get real-time alerts and keep your digital identity safe.
+    </p>
+
+    <a href="{{ url_for('register') }}" class="btn btn-lg btn-primary mb-2">Get Started - Register</a><br>
+    <a href="{{ url_for('login') }}" class="btn btn-lg btn-secondary">Already have an account? Login</a>
+
+    <hr class="my-5">
+
+    <h3>Why Choose Us?</h3>
+    <div class="row justify-content-center mt-4">
+        <div class="col-md-3 mb-4">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Continuous Monitoring</h5>
+                    <p class="card-text">We continuously scan dark web forums & dumps to detect credential leaks fast.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">AI-Powered Detection</h5>
+                    <p class="card-text">Our machine learning model boosts accuracy in identifying real data leaks.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Instant Alerts</h5>
+                    <p class="card-text">Get notified instantly via Email & Telegram whenever we detect a leak for you.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="my-5">
+
+    <h4>Already protecting <strong>100+</strong> users' credentials.</h4>
+</div>
+{% endblock %}
+
