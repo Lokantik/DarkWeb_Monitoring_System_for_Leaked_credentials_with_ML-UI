@@ -1147,3 +1147,175 @@
 [2025-05-09 01:13:55] 127.0.0.1 - - [09/May/2025 01:13:55] "[36mGET /static/Bg_1.jpg HTTP/1.1[0m" 304 -
 [2025-05-09 01:14:33] Scheduler has been shut down
 [2025-05-09 01:14:33] Scheduler has been shut down
+[2025-05-09 01:30:40] Email alert sent
+[2025-05-09 01:30:40] Telegram alert sent
+[2025-05-09 01:30:40] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[2025-05-09 01:30:40] Added job "periodic_scrape" to job store "default"
+[2025-05-09 01:30:40] Scheduler started
+[2025-05-09 01:30:40] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-05-09 01:30:40] [33mPress CTRL+C to quit[0m
+[2025-05-09 01:30:40]  * Restarting with stat
+[2025-05-09 01:30:41] Email alert sent
+[2025-05-09 01:30:41] Telegram alert sent
+[2025-05-09 01:30:41] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[2025-05-09 01:30:41] Added job "periodic_scrape" to job store "default"
+[2025-05-09 01:30:41] Scheduler started
+[2025-05-09 01:30:41]  * Debugger is active!
+[2025-05-09 01:30:41]  * Debugger PIN: 997-518-608
+[2025-05-09 01:30:49] 127.0.0.1 - - [09/May/2025 01:30:49] "GET / HTTP/1.1" 200 -
+[2025-05-09 01:30:49] 127.0.0.1 - - [09/May/2025 01:30:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-05-09 01:30:49] 127.0.0.1 - - [09/May/2025 01:30:49] "[36mGET /static/logo_6.png HTTP/1.1[0m" 304 -
+[2025-05-09 01:30:49] 127.0.0.1 - - [09/May/2025 01:30:49] "[36mGET /static/Bg_1.jpg HTTP/1.1[0m" 304 -
+[2025-05-09 01:30:49] 127.0.0.1 - - [09/May/2025 01:30:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-05-09 01:32:09] 127.0.0.1 - - [09/May/2025 01:32:09] "GET /register HTTP/1.1" 200 -
+[2025-05-09 01:32:09] 127.0.0.1 - - [09/May/2025 01:32:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-05-09 01:32:09] 127.0.0.1 - - [09/May/2025 01:32:09] "[36mGET /static/Bg_1.jpg HTTP/1.1[0m" 304 -
+[2025-05-09 01:32:27] 127.0.0.1 - - [09/May/2025 01:32:27] "GET /login HTTP/1.1" 200 -
+[2025-05-09 01:32:27] 127.0.0.1 - - [09/May/2025 01:32:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-05-09 01:32:57] 127.0.0.1 - - [09/May/2025 01:32:57] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-05-09 01:32:57] 127.0.0.1 - - [09/May/2025 01:32:57] "GET /dashboard HTTP/1.1" 200 -
+[2025-05-09 01:32:57] 127.0.0.1 - - [09/May/2025 01:32:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-05-09 01:33:39] 127.0.0.1 - - [09/May/2025 01:33:39] "[32mPOST /check_email HTTP/1.1[0m" 302 -
+[2025-05-09 01:33:39] 127.0.0.1 - - [09/May/2025 01:33:39] "GET /dashboard HTTP/1.1" 200 -
+[2025-05-09 01:33:39] 127.0.0.1 - - [09/May/2025 01:33:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-05-09 01:34:15] 127.0.0.1 - - [09/May/2025 01:34:15] "[32mGET /logout HTTP/1.1[0m" 302 -
+[2025-05-09 01:34:15] 127.0.0.1 - - [09/May/2025 01:34:15] "GET /login HTTP/1.1" 200 -
+[2025-05-09 01:34:15] 127.0.0.1 - - [09/May/2025 01:34:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-05-09 01:34:18] 127.0.0.1 - - [09/May/2025 01:34:18] "GET / HTTP/1.1" 200 -
+[2025-05-09 01:34:18] 127.0.0.1 - - [09/May/2025 01:34:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-05-09 01:34:18] 127.0.0.1 - - [09/May/2025 01:34:18] "[36mGET /static/logo_6.png HTTP/1.1[0m" 304 -
+[2025-05-09 01:34:24] Scheduler has been shut down
+[2025-05-09 01:34:24] Scheduler has been shut down
+[2025-05-09 16:16:47] Email alert sent
+[2025-05-09 16:16:47] Telegram alert sent
+[2025-05-09 16:16:47] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[2025-05-09 16:16:47] Added job "periodic_scrape" to job store "default"
+[2025-05-09 16:16:47] Scheduler started
+[2025-05-09 16:16:47] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-05-09 16:16:47] [33mPress CTRL+C to quit[0m
+[2025-05-09 16:16:47]  * Restarting with stat
+[2025-05-09 16:16:48] Email alert sent
+[2025-05-09 16:16:48] Telegram alert sent
+[2025-05-09 16:16:48] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[2025-05-09 16:16:48] Added job "periodic_scrape" to job store "default"
+[2025-05-09 16:16:48] Scheduler started
+[2025-05-09 16:16:48]  * Debugger is active!
+[2025-05-09 16:16:48]  * Debugger PIN: 997-518-608
+[2025-05-09 16:16:59] 127.0.0.1 - - [09/May/2025 16:16:59] "GET / HTTP/1.1" 200 -
+[2025-05-09 16:16:59] 127.0.0.1 - - [09/May/2025 16:16:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-05-09 16:16:59] 127.0.0.1 - - [09/May/2025 16:16:59] "[36mGET /static/logo_6.png HTTP/1.1[0m" 304 -
+[2025-05-09 16:16:59] 127.0.0.1 - - [09/May/2025 16:16:59] "[36mGET /static/Bg_1.jpg HTTP/1.1[0m" 304 -
+[2025-05-09 16:17:00] 127.0.0.1 - - [09/May/2025 16:17:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-05-09 16:17:23] 127.0.0.1 - - [09/May/2025 16:17:23] "GET /register HTTP/1.1" 200 -
+[2025-05-09 16:17:23] 127.0.0.1 - - [09/May/2025 16:17:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-05-09 16:17:26] 127.0.0.1 - - [09/May/2025 16:17:26] "GET /login HTTP/1.1" 200 -
+[2025-05-09 16:17:26] 127.0.0.1 - - [09/May/2025 16:17:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-05-09 16:17:36] 127.0.0.1 - - [09/May/2025 16:17:36] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-05-09 16:17:36] 127.0.0.1 - - [09/May/2025 16:17:36] "GET /dashboard HTTP/1.1" 200 -
+[2025-05-09 16:17:36] 127.0.0.1 - - [09/May/2025 16:17:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-05-09 16:18:33] 127.0.0.1 - - [09/May/2025 16:18:33] "[32mPOST /check_email HTTP/1.1[0m" 302 -
+[2025-05-09 16:18:33] 127.0.0.1 - - [09/May/2025 16:18:33] "GET /dashboard HTTP/1.1" 200 -
+[2025-05-09 16:18:34] 127.0.0.1 - - [09/May/2025 16:18:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-05-09 16:18:59] 127.0.0.1 - - [09/May/2025 16:18:59] "[32mPOST /check_email HTTP/1.1[0m" 302 -
+[2025-05-09 16:18:59] 127.0.0.1 - - [09/May/2025 16:18:59] "GET /dashboard HTTP/1.1" 200 -
+[2025-05-09 16:18:59] 127.0.0.1 - - [09/May/2025 16:18:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-05-09 16:19:06] 127.0.0.1 - - [09/May/2025 16:19:06] "[32mPOST /check_email HTTP/1.1[0m" 302 -
+[2025-05-09 16:19:06] 127.0.0.1 - - [09/May/2025 16:19:06] "GET /dashboard HTTP/1.1" 200 -
+[2025-05-09 16:19:06] 127.0.0.1 - - [09/May/2025 16:19:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-05-09 16:19:27] 127.0.0.1 - - [09/May/2025 16:19:27] "[32mPOST /check_email HTTP/1.1[0m" 302 -
+[2025-05-09 16:19:27] 127.0.0.1 - - [09/May/2025 16:19:27] "GET /dashboard HTTP/1.1" 200 -
+[2025-05-09 16:19:27] 127.0.0.1 - - [09/May/2025 16:19:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-05-09 16:19:49] 127.0.0.1 - - [09/May/2025 16:19:49] "[32mGET /logout HTTP/1.1[0m" 302 -
+[2025-05-09 16:19:49] 127.0.0.1 - - [09/May/2025 16:19:49] "GET /login HTTP/1.1" 200 -
+[2025-05-09 16:19:49] 127.0.0.1 - - [09/May/2025 16:19:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-05-09 16:22:03] Scheduler has been shut down
+[2025-05-09 16:22:04] Scheduler has been shut down
+[2025-05-09 18:45:18] Email alert sent
+[2025-05-09 18:45:18] Telegram alert sent
+[2025-05-09 18:45:18] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[2025-05-09 18:45:18] Added job "periodic_scrape" to job store "default"
+[2025-05-09 18:45:18] Scheduler started
+[2025-05-09 18:45:18] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-05-09 18:45:18] [33mPress CTRL+C to quit[0m
+[2025-05-09 18:45:18]  * Restarting with stat
+[2025-05-09 18:45:19] Email alert sent
+[2025-05-09 18:45:20] Telegram alert sent
+[2025-05-09 18:45:20] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[2025-05-09 18:45:20] Added job "periodic_scrape" to job store "default"
+[2025-05-09 18:45:20] Scheduler started
+[2025-05-09 18:45:20]  * Debugger is active!
+[2025-05-09 18:45:20]  * Debugger PIN: 997-518-608
+[2025-05-09 18:45:24] 127.0.0.1 - - [09/May/2025 18:45:24] "GET /login HTTP/1.1" 200 -
+[2025-05-09 18:45:24] 127.0.0.1 - - [09/May/2025 18:45:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-05-09 18:45:24] 127.0.0.1 - - [09/May/2025 18:45:24] "[36mGET /static/Bg_1.jpg HTTP/1.1[0m" 304 -
+[2025-05-09 18:45:29] 127.0.0.1 - - [09/May/2025 18:45:29] "GET / HTTP/1.1" 200 -
+[2025-05-09 18:45:29] 127.0.0.1 - - [09/May/2025 18:45:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-05-09 18:45:29] 127.0.0.1 - - [09/May/2025 18:45:29] "[36mGET /static/logo_6.png HTTP/1.1[0m" 304 -
+[2025-05-09 18:45:29] 127.0.0.1 - - [09/May/2025 18:45:29] "[36mGET /static/Bg_1.jpg HTTP/1.1[0m" 304 -
+[2025-05-09 18:47:06] 127.0.0.1 - - [09/May/2025 18:47:06] "GET /login HTTP/1.1" 200 -
+[2025-05-09 18:47:06] 127.0.0.1 - - [09/May/2025 18:47:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-05-09 18:47:06] 127.0.0.1 - - [09/May/2025 18:47:06] "[36mGET /static/Bg_1.jpg HTTP/1.1[0m" 304 -
+[2025-05-09 18:47:18] 127.0.0.1 - - [09/May/2025 18:47:18] "GET /register HTTP/1.1" 200 -
+[2025-05-09 18:47:18] 127.0.0.1 - - [09/May/2025 18:47:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-05-09 18:47:23] 127.0.0.1 - - [09/May/2025 18:47:23] "GET /login HTTP/1.1" 200 -
+[2025-05-09 18:47:23] 127.0.0.1 - - [09/May/2025 18:47:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-05-09 18:49:18] 127.0.0.1 - - [09/May/2025 18:49:18] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-05-09 18:49:18] 127.0.0.1 - - [09/May/2025 18:49:18] "GET /dashboard HTTP/1.1" 200 -
+[2025-05-09 18:49:18] 127.0.0.1 - - [09/May/2025 18:49:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-05-09 18:49:25] 127.0.0.1 - - [09/May/2025 18:49:25] "[32mPOST /check_email HTTP/1.1[0m" 302 -
+[2025-05-09 18:49:25] 127.0.0.1 - - [09/May/2025 18:49:25] "GET /dashboard HTTP/1.1" 200 -
+[2025-05-09 18:49:25] 127.0.0.1 - - [09/May/2025 18:49:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-05-09 18:51:46] 127.0.0.1 - - [09/May/2025 18:51:46] "[32mGET /logout HTTP/1.1[0m" 302 -
+[2025-05-09 18:51:46] 127.0.0.1 - - [09/May/2025 18:51:46] "GET /login HTTP/1.1" 200 -
+[2025-05-09 18:51:46] 127.0.0.1 - - [09/May/2025 18:51:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-05-09 18:51:49] 127.0.0.1 - - [09/May/2025 18:51:49] "GET / HTTP/1.1" 200 -
+[2025-05-09 18:51:49] 127.0.0.1 - - [09/May/2025 18:51:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-05-09 18:51:49] 127.0.0.1 - - [09/May/2025 18:51:49] "[36mGET /static/logo_6.png HTTP/1.1[0m" 304 -
+[2025-05-09 19:12:11] Scheduler has been shut down
+[2025-05-09 19:12:11] Scheduler has been shut down
+[2025-05-09 19:23:42] Email alert sent
+[2025-05-09 19:23:42] Telegram alert sent
+[2025-05-09 19:23:42] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[2025-05-09 19:23:42] Added job "periodic_scrape" to job store "default"
+[2025-05-09 19:23:42] Scheduler started
+[2025-05-09 19:23:42] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-05-09 19:23:42] [33mPress CTRL+C to quit[0m
+[2025-05-09 19:23:42]  * Restarting with stat
+[2025-05-09 19:23:44] Email alert sent
+[2025-05-09 19:23:44] Telegram alert sent
+[2025-05-09 19:23:44] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+[2025-05-09 19:23:44] Added job "periodic_scrape" to job store "default"
+[2025-05-09 19:23:44] Scheduler started
+[2025-05-09 19:23:44]  * Debugger is active!
+[2025-05-09 19:23:44]  * Debugger PIN: 997-518-608
+[2025-05-09 19:23:48] 127.0.0.1 - - [09/May/2025 19:23:48] "GET / HTTP/1.1" 200 -
+[2025-05-09 19:23:48] 127.0.0.1 - - [09/May/2025 19:23:48] "[36mGET /static/logo_6.png HTTP/1.1[0m" 304 -
+[2025-05-09 19:23:48] 127.0.0.1 - - [09/May/2025 19:23:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-05-09 19:23:48] 127.0.0.1 - - [09/May/2025 19:23:48] "[36mGET /static/Bg_1.jpg HTTP/1.1[0m" 304 -
+[2025-05-09 19:23:48] 127.0.0.1 - - [09/May/2025 19:23:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-05-09 19:24:02] 127.0.0.1 - - [09/May/2025 19:24:02] "GET /register HTTP/1.1" 200 -
+[2025-05-09 19:24:02] 127.0.0.1 - - [09/May/2025 19:24:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-05-09 19:24:56] 127.0.0.1 - - [09/May/2025 19:24:56] "[32mPOST /register HTTP/1.1[0m" 302 -
+[2025-05-09 19:24:56] 127.0.0.1 - - [09/May/2025 19:24:56] "GET /login HTTP/1.1" 200 -
+[2025-05-09 19:24:56] 127.0.0.1 - - [09/May/2025 19:24:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-05-09 19:25:10] 127.0.0.1 - - [09/May/2025 19:25:10] "[32mPOST /login HTTP/1.1[0m" 302 -
+[2025-05-09 19:25:10] 127.0.0.1 - - [09/May/2025 19:25:10] "GET /dashboard HTTP/1.1" 200 -
+[2025-05-09 19:25:10] 127.0.0.1 - - [09/May/2025 19:25:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-05-09 19:25:30] 127.0.0.1 - - [09/May/2025 19:25:30] "[32mPOST /update_notifications HTTP/1.1[0m" 302 -
+[2025-05-09 19:25:30] 127.0.0.1 - - [09/May/2025 19:25:30] "GET /dashboard HTTP/1.1" 200 -
+[2025-05-09 19:25:30] 127.0.0.1 - - [09/May/2025 19:25:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-05-09 19:26:03] 127.0.0.1 - - [09/May/2025 19:26:03] "[32mPOST /check_email HTTP/1.1[0m" 302 -
+[2025-05-09 19:26:03] 127.0.0.1 - - [09/May/2025 19:26:03] "GET /dashboard HTTP/1.1" 200 -
+[2025-05-09 19:26:03] 127.0.0.1 - - [09/May/2025 19:26:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-05-09 19:27:22] 127.0.0.1 - - [09/May/2025 19:27:22] "[32mGET /logout HTTP/1.1[0m" 302 -
+[2025-05-09 19:27:22] 127.0.0.1 - - [09/May/2025 19:27:22] "GET /login HTTP/1.1" 200 -
+[2025-05-09 19:27:22] 127.0.0.1 - - [09/May/2025 19:27:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-05-09 19:27:24] 127.0.0.1 - - [09/May/2025 19:27:24] "GET / HTTP/1.1" 200 -
+[2025-05-09 19:27:24] 127.0.0.1 - - [09/May/2025 19:27:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-05-09 19:27:24] 127.0.0.1 - - [09/May/2025 19:27:24] "[36mGET /static/logo_6.png HTTP/1.1[0m" 304 -
+[2025-05-09 19:27:38] Scheduler has been shut down
+[2025-05-09 19:27:39] Scheduler has been shut down
